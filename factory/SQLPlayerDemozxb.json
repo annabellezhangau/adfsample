@@ -1,0 +1,51 @@
+{
+	"name": "SQLPlayerDemozxb",
+	"properties": {
+		"globalParameters": {
+			"GP-String": {
+				"type": "string",
+				"value": "This is text"
+			},
+			"GP-Int": {
+				"type": "int",
+				"value": 2000000
+			},
+			"GP-Float": {
+				"type": "float",
+				"value": 3.14159265358979
+			},
+			"GP-Bool": {
+				"type": "bool",
+				"value": true
+			},
+			"GP-Object": {
+				"type": "object",
+				"value": "{ This is object }"
+			},
+			"GP-Array": {
+				"type": "array",
+				"value": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[]
+				]
+			},
+			"GlobalParam2": {
+				"type": "object",
+				"value": {
+					"env": [],
+					"name": []
+				}
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b5203b5a-0e41-462b-8f35-f352f4f65bc8",
+		"tenantId": "96d8485b-e367-4eaf-9c2e-7d32d7c4d311"
+	}
+}

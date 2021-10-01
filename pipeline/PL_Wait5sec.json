@@ -1,0 +1,22 @@
+{
+	"name": "PL_Wait5sec",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait5",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": {
+						"value": "@pipeline().globalParameters.GP-Int",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2021-09-30T00:04:05Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

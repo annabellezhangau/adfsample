@@ -1,0 +1,12 @@
+{
+	"name": "BlobSampleData",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=someblob;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "rjegij4utu985u959hort93489INCn0="
+		},
+		"annotations": []
+	}
+}
